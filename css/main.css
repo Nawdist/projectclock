@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: 'Arimo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: bold;
+}
+/*5171A5*/
+h1{
+    animation: 2s;
+    color: #283852;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    text-decoration: bold;
+    animation-name: bom;
+}
+@keyframes bom {
+    0%{color:#283852; }
+    50% {color : #6986B5;}
+    100%{color:#283852; }
+}
+p{
+    margin: 0px;
+    margin-right: 250px;
+    margin-left: 250px;
+    line-height: 35px;
+    font-size: 20px;
+}
+#clock{
+    transition: 0.3s;
+    border: darkslateblue 3px solid;
+    background-color: rgb(163 151 239);
+    font-size: 36px;
+    margin: 25px;
+    font-family: monospace;
+}
+
+#clock:hover{
+    border: solid 3px rgb(163 151 239);
+    font-size: 38px;
+    color: rgb(163 151 239);
+    background-color: black;
+}
+#stop{
+    font-family: monospace;
+    transition: 0.3s;
+    border: solid 3px black;
+    font-size: 36px;
+    background-color: rgb(250, 250,150)
+
+}
+#stop:hover{
+    background-color: black;
+    font-size: 38px;
+    color: rgb(250, 250, 150);
+    border: solid 3px rgb(250, 250,150);
+}

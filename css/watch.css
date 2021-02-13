@@ -1,0 +1,29 @@
+/*font-family: 'Asap Condensed', sans-serif;*/
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 250, 150);
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+    font-family: 'Asap Condensed', sans-serif;
+}
+button{
+    transition: 0.3s;
+    font-size: 34px;
+    margin :25px;
+    border-radius: 10%;
+    border: solid 3px black;
+    color: black;
+    background-color: rgb(250, 250, 150)
+}
+button:hover{
+    background-color: black;
+    font-size: 38px;
+    color: rgb(250, 250, 150);
+    border: solid 3px grey;
+}
+#beck{
+    top: 120px;
+    position: relative;
+}
