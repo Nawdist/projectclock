@@ -35,6 +35,22 @@ p{
     margin: 25px;
     font-family: monospace;
 }
+#keyboard{
+    font-family: monospace;
+    transition: 0.3s;
+    border: solid 3px black;
+    font-size: 36px;
+    margin: 25px;
+    background-color: crimson;
+
+}
+#keyboard:hover{
+    background-color: black;
+    font-size: 38px;
+    color: crimson;
+    border: solid 3px crimson;
+}
+
 
 #clock:hover{
     border: solid 3px rgb(163 151 239);
