@@ -14,6 +14,10 @@ var finalResult = document.getElementById("equal").onclick = function(){
         }, 3000)
         
     } else {
+        document.getElementById("history3").innerHTML = document.getElementById("history2").innerHTML;
+        document.getElementById("history2").innerHTML = document.getElementById("history1").innerHTML;
+        document.getElementById("history1").innerHTML = document.getElementById("history").innerHTML;
+        document.getElementById("history").innerHTML = result.value; 
         result.value = eval(result.value);
     }
 }
@@ -23,7 +27,4 @@ back.addEventListener('click', function(){
 })
 var clear = document.getElementById("clear").addEventListener('click', function(){
     result.value = "";
-})
-var go = document.getElementById('go').addEventListener('click', function(){
-    window.location.href = ('../index.html')
 })
